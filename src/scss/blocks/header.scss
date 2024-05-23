@@ -1,0 +1,31 @@
+.header {
+  background-image: url(..//../assets/images/Futuristic\ representation\ of\ water\ structure.png);
+  height: 812px;
+  position: relative;
+
+  &__icon {
+    background-color: var(--dark-blue);
+    padding: 0.5rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    box-shadow: 0 4px 4px 0;
+    z-index: 100;
+  }
+
+  &__menu {
+    padding: 0.5rem;
+    position: absolute;
+    top: 406px;
+    right: 50px;
+  }
+
+  &__container {
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
